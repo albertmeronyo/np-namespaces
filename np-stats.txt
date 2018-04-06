@@ -1,0 +1,45 @@
+# for f in $(ls); do cat $f | sort | uniq -c | sort -nr | sed -e "s/^/$f/"; done 
+
+liddi-a.txt  98085 http://www.w3.org/2000/01/rdf-schema#
+liddi-a.txt  98085 http://purl.org/dc/terms/
+liddi-a.txt  97730 http://www.w3.org/1999/02/22-rdf-syntax-ns#
+liddi-a.txt  97730 http://bio2rdf.org/drugbank_vocabulary:
+liddi-a.txt    355 http://liddi.stanford.edu/LIDDI_vocabulary:
+liddi-h.txt  98085 http://www.w3.org/1999/02/22-rdf-syntax-ns#
+liddi-h.txt  98085 http://www.nanopub.org/nschema#
+liddi-i.txt  98085 http://www.w3.org/ns/prov#
+liddi-i.txt  98085 http://purl.org/dc/terms/
+liddi-p.txt  98085 http://www.w3.org/ns/prov#
+liddi-p.txt  98085 http://www.w3.org/1999/02/22-rdf-syntax-ns#
+liddi-p.txt  98085 http://purl.org/dc/terms/
+liddi-p.txt  97730 http://semanticscience.org/resource/
+liddi-p.txt  97730 http://rdfs.org/ns/void#
+np-stats.txt      1 liddi-p.txt  98085 http://www.w3.org/ns/prov#
+np-stats.txt      1 liddi-p.txt  98085 http://www.w3.org/1999/02/22-rdf-syntax-ns#
+np-stats.txt      1 liddi-p.txt  98085 http://purl.org/dc/terms/
+np-stats.txt      1 liddi-p.txt  97730 http://semanticscience.org/resource/
+np-stats.txt      1 liddi-p.txt  97730 http://rdfs.org/ns/void#
+np-stats.txt      1 liddi-i.txt  98085 http://www.w3.org/ns/prov#
+np-stats.txt      1 liddi-i.txt  98085 http://purl.org/dc/terms/
+np-stats.txt      1 liddi-h.txt  98085 http://www.w3.org/1999/02/22-rdf-syntax-ns#
+np-stats.txt      1 liddi-h.txt  98085 http://www.nanopub.org/nschema#
+np-stats.txt      1 liddi-a.txt  98085 http://www.w3.org/2000/01/rdf-schema#
+np-stats.txt      1 liddi-a.txt  98085 http://purl.org/dc/terms/
+np-stats.txt      1 liddi-a.txt  97730 http://www.w3.org/1999/02/22-rdf-syntax-ns#
+np-stats.txt      1 liddi-a.txt  97730 http://bio2rdf.org/drugbank_vocabulary:
+np-stats.txt      1 liddi-a.txt    355 http://liddi.stanford.edu/LIDDI_vocabulary:
+wp-a.txt  26789 http://www.w3.org/1999/02/22-rdf-syntax-ns#
+wp-a.txt  26789 http://vocabularies.wikipathways.org/wp#
+wp-a.txt   1333 http://purl.org/dc/terms/
+wp-a.txt    145 http://purl.org/nanopub/x/
+wp-h.txt  26934 http://www.w3.org/1999/02/22-rdf-syntax-ns#
+wp-h.txt  26934 http://www.nanopub.org/nschema#
+wp-i.txt  26934 http://purl.org/dc/terms/
+wp-i.txt  26845 http://www.w3.org/1999/02/22-rdf-syntax-ns#
+wp-i.txt  26789 http://www.w3.org/ns/prov#
+wp-i.txt   1287 http://purl.org/nanopub/x/
+wp-i.txt    145 http://purl.org/pav/
+wp-i.txt    145 http://purl.org/dc/elements/1.1/
+wp-p.txt  26789 http://semanticscience.org/resource/
+wp-p.txt  26789 http://purl.org/dc/elements/1.1/
+wp-p.txt    145 http://www.w3.org/1999/02/22-rdf-syntax-ns#
